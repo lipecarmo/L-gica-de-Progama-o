@@ -1,24 +1,24 @@
-# continuar = 'sim'
-# while continuar.lower() == 'sim':
-#     numero = int(input('Digite um número: '))
+continuar = 'sim'
+while continuar.lower() == 'sim':
+    numero = int(input('Digite um número: '))
 
-#     if numero % 3 == 0 and numero % 5 == 0:
-#         print('Fizzbuzz')
-#     elif numero % 3 == 0:
-#         print('Fizz')
-#     elif numero % 5 == 0:
-#         print('Buzz')
-#     else:
-#         print('Número não é divisível por 3 ou 5.')
+    if numero % 3 == 0 and numero % 5 == 0:
+        print('Fizzbuzz')
+    elif numero % 3 == 0:
+        print('Fizz')
+    elif numero % 5 == 0:
+        print('Buzz')
+    else:
+        print('Número não é divisível por 3 ou 5.')
 
-#     continuar = input('Deseja continuar? (sim/não): ')
+    continuar = input('Deseja continuar? (sim/não): ')
 
-# palavras = ['Filipe','16 anos','2 Ano do Ensino Médio']
-# len(palavras)
+palavras = ['Filipe','16 anos','2 Ano do Ensino Médio']
+len(palavras)
 
-# print('Aluno:')
-# for palavras in palavras:
-#     print(palavras)
+print('Aluno:')
+for palavras in palavras:
+    print(palavras)
 
 
 
